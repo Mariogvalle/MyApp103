@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyApp103</string>
+    <string name="txtNombres">Ingrese su nombre</string>
+    <string name="txtNombres2">Ingrese su nombre</string>
+    <string name="txtApellidos">Ingrese su apellido</string>
+    <string name="txtTelefono">Ingrese su telefono</string>
+    <string name="btnProcesar">Procesar</string>
+    <string name="edad">Ingrese edad</string>
+    <string name="correo">Ingrese correo</string>
+</resources>
