@@ -7,4 +7,6 @@
     <string name="btnProcesar">Procesar</string>
     <string name="edad">Ingrese edad</string>
     <string name="correo">Ingrese correo</string>
+    <string name="btnAdd">Agregar personas</string>
+    <string name="btnListarPersonas">Listar personas</string>
 </resources>

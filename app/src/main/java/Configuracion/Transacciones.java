@@ -2,7 +2,7 @@ package Configuracion;
 
 public class Transacciones
 {
-    public static final String DBName = "PM012024"; //creación de la base de datos
+    public static final String DBName = "BD012024"; //creación de la base de datos
     public static final String TablePersonas = "personas"; //creación de las tablas
 
     public static final String id = "id";
@@ -13,14 +13,14 @@ public class Transacciones
     public static final String telefono = "telefono";
 
     //ddl create
-    public static final String CreateTablePersonas = "create table "+ TablePersonas + "("+
-            "id INTEGER PRIMARY KEY AUTOINCREMENT, nombres TEXT, apellidos, edad integer, "+
-            "telefono integer, correo text)";
+    public static final String CreateTablePersonas = "CREATE TABLE "+ TablePersonas + "("+
+            "id INTEGER PRIMARY KEY AUTOINCREMENT, nombres TEXT, apellidos TEXT, edad INTEGER, "+
+            "telefono INTEGER, correo TEXT)";
     //ddl drop
-    public static final String DropTablePersonas = "DROP TABLE IF EXISTS"+ TablePersonas;
+    public static final String DropTablePersonas = "DROP TABLE IF EXISTS "+ TablePersonas;
 
     //dml
-    public static final String SelectAllPersonas = "SELECT * FROM TABLE "+ TablePersonas;
+    public static final String SelectAllPersonas = "SELECT * FROM "+ TablePersonas;
 
 
 }

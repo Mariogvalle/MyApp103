@@ -55,12 +55,11 @@ public class MainActivity extends AppCompatActivity {
         valores.put(Transacciones.nombres, nombres.getText().toString());
         valores.put(Transacciones.apellidos, apellidos.getText().toString());
         valores.put(Transacciones.edad, edad.getText().toString());
-        valores.put(Transacciones.correo, correo.getText().toString());
         valores.put(Transacciones.telefono, telefono.getText().toString());
+        valores.put(Transacciones.correo, correo.getText().toString());
 
         Long resultado = db.insert(Transacciones.TablePersonas, Transacciones.id, valores);
-        Toast.makeText(getApplication(),"Registro ingresado correctamente" + resultado.toString(),
-                Toast.LENGHT_LONG).show();
+        Toast.makeText(getApplication(),"Registro ingresado correctamente" + resultado, Toast.LENGTH_SHORT).show();
         db.close();
     }
 }
